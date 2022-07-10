@@ -1,0 +1,13 @@
+   
+                        Comandos js_gustavo_guanabara
+alert('ola mundo!') // mostrar um ola mundo
+
+
+document.body.style.background = 'black' // muda o fundo para preto
+'black'
+document.querySelector('img#hplogo').style.filter = "grayscale(100%)" // muda a cor da logo para cinza
+'grayscale(100%)'
+document.querySelector("img#hplogo").style.visibility = 'hidden' // some com a cor da logo
+                        
+document.querySelector('span.bstn-hl-title').innerText = 'magno barroso'// faz alteraçoes em paginas web
+       Proxima aula -> como chegamos ate aqui
