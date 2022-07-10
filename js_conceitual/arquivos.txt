@@ -9,14 +9,6 @@ document.querySelector('img#hplogo').style.filter = "grayscale(100%)" // muda a 
 document.querySelector("img#hplogo").style.visibility = 'hidden' // some com a cor da logo
                         
 document.querySelector('span.bstn-hl-title').innerText = 'magno barroso'// faz alteraçoes em paginas web
-                         Enviar repositorios para o github
-      
-       Proxima aula -> como chegamos ate aqui
-
-       echo "# Curso_guanabara" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/MagnoAlef/Curso_guanabara.git
-git push -u origin main
+                     Conhecendo o javascript
+Primeiros passos com js.
+                     
