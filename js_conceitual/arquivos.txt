@@ -10,7 +10,28 @@ document.querySelector("img#hplogo").style.visibility = 'hidden' // some com a c
                         
 document.querySelector('span.bstn-hl-title').innerText = 'magno barroso'// faz alteraçoes em paginas web
                        Conhecendo o javascript
-Primeiro script.
-    <script>window.alert('Olá,Mundo!')</script>
+Primeiros script.
+   window.alert('Olá,Mundo!')
+   window.confirm("Esta gostando de js?")
+   window.prompt("qual e o seu nome?")
+   document.write(`<h1>seu nome tem ${nome.length} letras</h1>`) //mostra na tela principal
+   n1.toLocaleString('pr-BR',{style: 'currency',currency:'BRL'})//colocando valores em R$
+                    Comandos basicos do js
+Variaveis e tipos de dados
+    São espaços na memoria,para guardar dados,no js podemos declarar
+    as variaveis com as palavras reservadas var,let e const.
+    Nome de variaveis sao denominados identificadores temos algumas regras
+    de declaração para os identificadores -> podem começar com letras,$ ou _,
+    nao podem começas com numeros, e possivel usar letras ou numeros,e possivel
+    usar acentos e simbolos, nao podem conter espaços, nao podem ser palavras reservadas.
+    Maisculas e minusculas fazem a diferença.
+    Tente escolher nome coerentes para variaveis.
+    Variaveis servem para guardar dados.
+    Tipos primitivos mais usados -> number string boolean
+    typeof tipo de -> analise de tipo de variavel.
+       Proxima aula Operadores (Parte 1)
+    
+        
+                    
     
                      
