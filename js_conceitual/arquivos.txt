@@ -29,8 +29,8 @@ Variaveis e tipos de dados
     Variaveis servem para guardar dados.
     Tipos primitivos mais usados -> number string boolean
     typeof tipo de -> analise de tipo de variavel.
-       Proxima aula Operadores (Parte 1)
-    
+       
+    Proxima aula modulo c -> entendendo o dom
         
                     
     

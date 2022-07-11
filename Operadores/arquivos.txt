@@ -1,0 +1,38 @@
+                     Aritmeticos 
+   + - * / % **
+   5+2 =7 
+   5-2 =3 
+   5*2 =10 
+   5/2 =2.5 
+   5%2 =resto 1 
+   5**2 =25 
+   Cuidado com a ordem de precendencia
+   Ordem de precendencia -> () **  |* / %| + -
+                     Atribuição
+Auto-atribuicao
+   var n =3
+   n=n+3 //atribuir novos valores.
+   simplificar as atribuicoes -> n+=4 e a mesma coisa de n=n+4
+Incremento
+    var x =5
+    x=x+1 incrementa um no valor -> x++ e a mesma coisa de x=x+1
+                     Relacionais
+    > < >= <= == !=  === !==igualdade restrita identico
+   5>2=true 
+   5<2 =false 
+   5>=2 =true 
+   5<=2 =false
+   5==2 =false 1 
+   5=!2= true                      
+                     Logicos
+   ! && || 
+   ! negação && conjunção || disjuncões
+   ! true  = false
+   true && true = true        true || true = true
+   true && false = false      true || false = true
+   false && true = false      false || true = true
+   false && false = false     false || false = false           
+                     Ternarios  
+   ? : 
+   teste ? true : false -> Exemplo media>=7 ? "aprovado" : "reprovado" 
+   Exemplo var res = x % 2 == 0 ? 5 : 9 resultado 5 
