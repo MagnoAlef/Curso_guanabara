@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div#area{
+            background: green;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id='area'  > interaja...</div>
+    <script>
+ var a = window.document.querySelector('div#area') //-> se usasse aqui nao precisaria usar dentro de todas as funções      
+a.addEventListener('click',clicar)
+a.addEventListener('mouseenter',entrou)
+a.addEventListener('mouseout',saiu)
+//usando o addEventListener posso diminiur no html
+ function clicar(){
+    a.innerHTML = 'Hello,Word!!!'
+    a.style.background = 'red'
+}
+function entrou(){
+    a.innerHTML = 'Entrou!'
+}
+function saiu(){
+    a.innerHTML= 'Saiu!'
+    a.style.background = 'green'
+}
+    </script>
+</body>
+</html>

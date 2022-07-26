@@ -40,4 +40,16 @@ e replicando ele na tela.
     d.innerHTML = 'Òla,Mundo!!!'
     </script> 
 ID # 
-CLASS .    
+CLASS .    ]
+            EVENTOS DOM
+    Funções -> function ação (paramentro){
+
+    }        
+ONCLICK 
+    <div id='area' onclick="clicar()"> interaja...</div>
+    <script>
+    function clicar(){
+    var a = window.document.querySelector('div#area')
+    a.innerHTML = 'Hello,Word!!!'
+    }
+    </script> -> muda o nome do elemento pelo evento ONCLICK
