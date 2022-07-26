@@ -1,0 +1,43 @@
+Metodos de acesso de elementos Dom.
+       Por marca -> Exemplo| pegando o primeiro paragrafo 
+e replicando ele na tela.       
+    <h1>Conhecendo o Dom</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM </strong>em Js</p>
+    <div>Clique em mim</div>
+    <script>
+    var p1 = window.document.getElementsByTagName('p')[0]
+    window.document.write('clonando o primeiro paragrafo ->' + p1.innerText)
+    </script>    
+       Por id - > Exemplo | Alterando texto da div pelo id
+    <div id="msg">Clique em mim</div>
+    <script> 
+    var d = window.document.getElementById('msg')
+    d.innerText='Alterando msg da div'
+    </script>
+       Por nome -> Exemplo | Alterando msg da div
+       <div name="msg">Clique em mim</div>
+    <script> 
+    var d = window.document.getElementsByName('msg')[0]
+    d.innerText='Alterando msg da div'
+    </script>
+        Por classe -> Exemplo | Alterando msg da dic por class
+    <h1>Conhecendo o Dom</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM </strong>em Js</p>
+    <div class="msg">Clique em mim</div>
+    <script> 
+     var d = window.document.getElementsByClassName('msg')[0]
+     d.innerText= 'Hello,Word!!!'
+    </script>
+        Por seletor -> Exemplo | alterando div por seletor
+           <h1>Conhecendo o Dom</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM </strong>em Js</p>
+    <div id="msg">Clique em mim</div>
+    <script> 
+    var d = window.document.querySelector('div#msg')
+    d.innerHTML = 'Òla,Mundo!!!'
+    </script> 
+ID # 
+CLASS .    
