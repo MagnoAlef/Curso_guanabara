@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+</head>
+<body>
+    <h1>Sistema de multa</h1>
+    Velocidade do carro:<input type="number" name="txt" id="txt">Km/h
+    <input type="button" value="verificar" onclick="multa()">
+   <div id="res">resultado</div>
+   <script>
+        function multa(){
+            var res = document.getElementById('res')
+            var multa = document.getElementById('txt')
+            var resultado = Number(txt.value)
+            res.innerHTML = `<p>sua velocidade atual e ${resultado} Km/h</p>`
+            if (resultado>=60){
+                ultra = resultado - 60
+                res.innerHTML += `<p>Você ultrapassou ${ultra} Km/h da velocidade permitida na pista.</p>`
+            }
+            else{
+                res.innerHTML += `A velocidade permitida e de 60 Km/h, voçê não foi multado.`
+            }
+            res.innerHTML +=`<p>Use sempre cinto de segurança!</p>`
+        }
+    </script>
+</body>
+</html>
