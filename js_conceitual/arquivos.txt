@@ -30,7 +30,7 @@ Variaveis e tipos de dados
     Tipos primitivos mais usados -> number string boolean
     typeof tipo de -> analise de tipo de variavel.
        
-    Proxima aula modulo c -> Modulo D _ Exercicios javascript (Parte 1)
+    Proxima aula Modulo E -> repetições em js
         
                     
     
