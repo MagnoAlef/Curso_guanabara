@@ -49,30 +49,4 @@ alert('[ERRO] verifique os dados e tente novamente')
         }
     }
 
-    // if(idade >=0 && idade <10){
-    //     //Crianca
-    //     img.setAttibute('src','homem_crianca.jpg')
-    // }else if(idade < 21){
-    //     //Jovem
-    //     img.setAttibute('src','homem_jovem.jpg')
-    // }else if(idade < 50){
-    //     //Adulto
-    //     img.setAttibute('src','homem_adulto.jpg')
-    // }else{
-    //     //Velho
-    //     img.setAttibute('src','homem_velho.jpg')
-    // }
-
-    // if(idade >=0 && idade <10){
-    //     //Crianca
-    //     img.setAttibute('src','mulher_crianca.jpg')
-    // }else if(idade < 21){
-    //     //Jovem
-    //     img.setAttibute('src','mulher_jovem.jpg')
-    // }else if(idade < 50){
-    //     //Adulto
-    //     img.setAttibute('src','mulher_adulta.jpg')
-    // }else{
-    //     //Velho
-    //     img.setAttibute('src','mulher_velho.jpg')
-    // }
+   
